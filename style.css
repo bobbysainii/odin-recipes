@@ -2,7 +2,7 @@ html {
     background-color: #edb1f1; 
  
 }
-#name {
+.name {
     text-align: center;
     background-color: #8ef6e4;
     color: aliceblue;
@@ -11,21 +11,22 @@ html {
     font-weight: bold;
 }
 
-div.recipes{
+.recipes{ 
     text-align: center;
     background-color: #d59bf6;
 }
 
-ul.myrecipes{
+
+
+ul.myrecipes{ 
     display: inline-block;
     text-align: left;
     color: whitesmoke;
 }
 
-
-#lasagna,
-#samosa,
-#garlicbread{
+.lasagna,
+.samosa,
+.garlicbread{
     font-size: 40px;
     color: whitesmoke;
 }
