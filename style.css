@@ -1,20 +1,32 @@
 html {
     background-color: #edb1f1; 
+    box-sizing: border-box;
  
 }
 .name {
     text-align: center;
     background-color: #8ef6e4;
-    color: aliceblue;
+    color: darkgreen;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     font-weight: bold;
+    border: 6px double gray;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
 }
 
 .recipes{ 
     text-align: center;
     background-color: #d59bf6;
+    padding: 20px;
+    border: 6px double gray;
+    margin: 40px;
+
 }
+
 
 
 
@@ -29,4 +41,6 @@ ul.myrecipes{
 .garlicbread{
     font-size: 40px;
     color: whitesmoke;
+
 }
+
